@@ -1,3 +1,3 @@
-run lambda do |env|
+run lambda { |env|
   [200, {'Content-Type'=>'text/plain'}, StringIO.new("Hello Azuki!\n")]
-end
+}
